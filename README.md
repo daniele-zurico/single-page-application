@@ -1,6 +1,7 @@
 # single-page-application
 
-npm install -g live-server
+
+- npm install -g live-server
 
 - cd microservice-child
 - npm install
