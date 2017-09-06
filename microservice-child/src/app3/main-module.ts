@@ -18,5 +18,5 @@ enableProdMode();
 	bootstrap: [App3]
 })
 export default class MainModule {
-	constructor()
+	constructor(){}
 }

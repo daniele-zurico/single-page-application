@@ -7,11 +7,4 @@ mkdir build
 cp jspm_packages/system.src.js build/system.src.js
 cp jspm_packages/system-polyfills.src.js build/system-polyfills.src.js
 
-./node_modules/jspm/jspm.js bundle \
-	main \
-	- single-spa \
-	build/single-spa.js \
-	--format amd \
-	--source-map-contents \
-	--skip-rollup \
-	"$@"
+./node_modules/jspm/jspm.js bundle-sfx main + single-spa build/single-spa.js
