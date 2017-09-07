@@ -6,7 +6,7 @@ const ngLifecycles = singleSpaAngular({
 	domElementGetter,
 	mainModule,
 	angularPlatform: platformBrowserDynamic(),
-	template: `<app3 />`,
+	template: `<app4 />`,
 });
 
 export function bootstrap() {
@@ -23,10 +23,10 @@ export function unmount() {
 
 function domElementGetter() {
 	// Make sure there is a div for us to render into
-	let el = document.getElementById('app-3');
+	let el = document.getElementById('app-4');
 	if (!el) {
 		el = document.createElement('div');
-		el.id = 'app-3';
+		el.id = 'app-4';
 		document.body.appendChild(el);
 	}
 

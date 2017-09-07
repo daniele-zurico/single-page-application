@@ -9,20 +9,25 @@
 	</head>
 	<body>
 		<script>
-			SystemJS.import('./build/single-spa.js');
+			SystemJS.import('main.js');
 		</script>
 		<div>
 			<div>
 				<nav style="background-color: aquamarine;height: 42px;">
-					<div className="nav-wrapper">
+					<div style="display: flex; flex-direction:row">
 						<div>
+							<a href="#/">
+								Home
+							</a>
+						</div>
+						<div style="margin-left: 10px">
 							<a href="#/angular2-external">
 								Angular 2 External
 							</a>
 						</div>
-						<div>
-							<a href="#/">
-								Home
+						<div style="margin-left: 10px">
+							<a href="#/angular3-external">
+								Angular 3 External
 							</a>
 						</div>
 					</div>
