@@ -6,7 +6,7 @@ singleSpa.declareChildApplication('angular2-external',
 	hashPrefix('/angular2-external')
 );
 singleSpa.declareChildApplication('angular2-external2',
-() => SystemJS.import('http://127.0.0.1:53978/dist/child-application2.js'),
+() => SystemJS.import('http://127.0.0.1:56555/dist/child-application2.js'),
 hashPrefix('/angular3-external')
 );
 
