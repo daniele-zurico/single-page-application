@@ -7,6 +7,8 @@ They both run on a different url.
 ## Global dependencies
 - npm install -g live-server
 
+## How to use it
+
 ### Angular v4 app
 - cd microservice-child (angular v4)
 - npm install
