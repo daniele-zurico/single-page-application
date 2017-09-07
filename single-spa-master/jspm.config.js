@@ -12,13 +12,13 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
-
   map: {
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@1.2.7",
     "reflect-metadata": "npm:reflect-metadata@0.1.10",
     "single-spa": "npm:single-spa@3.5.0",
+    "sofe": "npm:sofe@2.1.2",
     "systemjs": "npm:systemjs@0.20.18",
     "zone.js": "npm:zone.js@0.8.17",
     "github:jspm/nodelibs-assert@0.1.0": {
